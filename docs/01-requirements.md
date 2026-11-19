@@ -1,6 +1,6 @@
 # HARlens: Requirements (Phase 1)
 
-Status: Draft v0.2, awaiting approval
+Status: Approved v1.0 (2026-11-20)
 Changes in v0.2: reveal toggle with security explanation (US-12), researched slow thresholds (US-08), HAR capture guide (US-14), filter presets by issue type (US-10).
 
 ---
@@ -299,7 +299,7 @@ React + TypeScript + Vite, tested with Vitest and React Testing Library, linted 
 | # | Decision | Status |
 |---|----------|--------|
 | 1 | Per-field reveal in detail view only, with an explanation of why values are masked; exports always masked | Approved |
-| 2 | Tiered slow thresholds based on web.dev TTFB and Nielsen limits, instead of one 3 s cut-off | Proposed |
+| 2 | Tiered slow thresholds based on web.dev TTFB and Nielsen limits, instead of one 3 s cut-off | Approved |
 | 3 | Sample HAR in MVP, plus a customer-facing HAR capture guide (US-14) | Approved |
 | 4 | Stack confirmed with ESLint, Prettier, React Testing Library | Approved |
-| 5 | Filter presets by issue type; default view is API calls (Fetch/XHR) | Proposed |
+| 5 | Filter presets by issue type; default view is API calls (Fetch/XHR) | Approved |
